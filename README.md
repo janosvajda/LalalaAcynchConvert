@@ -1,7 +1,7 @@
 Node ImageMagick convert.
 =========================
 
-Asynchronous image convert script. It can collect images from any directory and can convert them with ImageMagick convert command. It also can copy converted images to any customised directory.
+Asynchronous image convert script. It can collect images from any directory and can convert them with ImageMagick convert command. It also can copy converted images to any directory.
 
 Usage
 -----
