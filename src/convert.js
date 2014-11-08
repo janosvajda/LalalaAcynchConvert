@@ -26,7 +26,7 @@ var path = require('path');
  */
 function convert(arg, callback) { //convert. Run external process.
     console.log('Converting: '+arg);
-    fs.exists(arg, function (exists) { //Check wether file exists or not.
+    fs.exists(arg, function (exists) { //Check whether file exists or not.
         var exec = require('child_process').exec;
         var basename=path.basename(arg, path.extname(arg));
         var commande='convert '+arg+' '+converted_image_path+'\\'+basename+'.jpg';
