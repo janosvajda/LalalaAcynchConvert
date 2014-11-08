@@ -1,5 +1,5 @@
-base32Lowercase
-===============
+Node ImageMagick convert.
+=========================
 
 Asynchronous image convert script. It can collect images from any directory and can convert them with ImageMagick convert command. It also can copy converted images to any customised directory.
 
@@ -31,4 +31,4 @@ It just use default Node.js libraries so it does not need any external lib.
 Licence
 ---------
 
-You can do with this script what you need. Feel free to use it.
+Copyright (c) 2014 Janos Vajda
