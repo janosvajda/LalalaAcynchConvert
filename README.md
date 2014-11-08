@@ -1,21 +1,26 @@
-Node ImageMagick convert.
-=========================
+Node ImageMagick convert
+========================
 
 Asynchronous image convert script. It can collect images from any directory and can convert them with ImageMagick convert command. It also can copy converted images to any directory.
 
 Usage
 -----
 
-<?php
-
 There is a simple configuration in the file.
 
-var imagick_path='C:\\bin\\ImageMagick-6.8.9-10'; //ImageMagick path.
-var uploaded_image_path='C:\\wamp\\images'; //Here are images which should be converted. 
-var converted_image_path='C:\\wamp\\converted_images'; //Here will be converted images
-var converting_timer_interval=1000; //default = 1 second
+ImageMagick path:
 
-You can customise it with these parameters. 
+var imagick_path='C:\\bin\\ImageMagick-6.8.9-10';
+
+
+Here are images which should be converted:
+var uploaded_image_path='C:\\wamp\\images';
+
+Here will be converted images:
+var converted_image_path='C:\\wamp\\converted_images'; 
+
+
+So, You can customise it with these parameters. 
 
 Run: node convert.js
 
